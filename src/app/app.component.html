@@ -1,3 +1,15 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col topbar">
+      <h1>CiviNg</h1>
+    </div>
+  </div>
+  <div class="row main d-flex align-items-stretch">
+    <div class="col col-auto main-menu">
+      <main-menu></main-menu>
+    </div>
+    <div class="col workspace">
+        <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

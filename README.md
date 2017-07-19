@@ -1,28 +1,25 @@
-# Tivyng
+# Civing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
+An opinionated, top-down, UI layer for CiviCRM built with Angular.
 
-## Development server
+The current UI is a bazaar of competing design ideas and approaches and the time and effort required to improve it tends to infinity.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Style guides and similar have been designed and partially implemented but the effort taken to implement them, and the ease with which they can be flouted has prevented them from becoming universally adopted
 
-## Code scaffolding
+Civing is an attempt to wipe the slate - to construct a new UI that does the hard work for you, and cannot be abused. Civing defines the entire set of UI elements that you can choose from.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+You cannot create your own elements for specific pages.
 
-## Build
+New design ideas and approaches are welcome but these should be discussed and approved globally, and thus rolled out for the entire system.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## What's included so far
 
-## Running unit tests
+* Simple list of all entities with some basic ability to view lists
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## What's missing
 
-## Running end-to-end tests
+* CRUD
+* Permissions
+* lots more
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+See the [TODO list](/TODO.md) for more details.
