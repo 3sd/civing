@@ -10,7 +10,8 @@ Civing defines the entire set of UI elements that you can choose from. You canno
 
 ## What's included so far
 
-* Simple list of all entities with some basic ability to view lists
+* APIv3 service
+* Prototype view of lists of entities
 
 ## What's missing
 
